@@ -1,9 +1,6 @@
-import cv2
+import cv2 #importing an openAI library opencv.
 
 trained_face_data=cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
-
-#img=cv2.imread('team.jpg')
-
 webcam=cv2.VideoCapture(0)
 
 
@@ -18,4 +15,3 @@ while True:
     cv2.waitKey(1)
     
     
-print("Hello Amey")
